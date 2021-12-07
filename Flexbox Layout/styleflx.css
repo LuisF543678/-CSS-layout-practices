@@ -1,0 +1,32 @@
+.container{
+    margin: 0 auto;
+    background-color:rgba(255, 70, 172);
+    padding: 10px;
+    border: solid 1px (129,10, 84);
+    border: radius 10px;
+    transition:all 0.5s;
+}
+
+.container{
+    display:flex;
+    width: 600px;
+
+    /* flex-direction: column-reverse; */
+    flex-wrap: wrap-reverse;
+}
+
+.item-1{
+
+}
+
+.item-2{
+
+}
+
+.item-3{
+
+}
+
+.item-4{
+
+}
