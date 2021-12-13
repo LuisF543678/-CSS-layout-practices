@@ -1,3 +1,10 @@
+.grid {
+    display:grid;
+    grid-template-columns: 200px 200px 400px;
+    grid-template-rows: auto 100px;
+    row-gap: 1em;
+}
+
 .grid div {
     background-color: #ecf0f1;
     padding: 1em;
@@ -5,10 +12,4 @@
 
 .grid div:hover {
     border: 1px solid #f1c40f;
-}
-
-.grid {
-    display:grid;
-    grid-template-columns: 33% 33% 33%;
-    grid-template-rows: 200px 400px;
 }
